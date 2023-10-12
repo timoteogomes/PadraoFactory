@@ -1,1 +1,2 @@
 # PadraoFactory
+Código em JavaScript onde os produtos devem implementar uma interface comum, o cliente deve utilizar apenas a fábrica para criar instâncias do tipo abstrato da interface, todo computador (que são do tipo PC e SERVER) de ter com getters os atributos ram, hdd, cpu e type. Os computadores possuem dois tipos de mémoria, RAM e HD e estão devem ser estar em GB. A CPU deve estar em GHz. Através do tipo informado, a fábrica decide qual tipo de computador irá instanciar. Quando o método .toString() for aplicado a um computador, ele deve imprimir seus atributos.
